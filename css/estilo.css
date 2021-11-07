@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*
+
+	AJUSTES GERAIS
+
+*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: url('../imagens/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+/*
+
+	AJUSTES section "principal"
+
+*/
+section#principal {
+	margin-top: 5rem;
+}
+
+section#principal #texto-principal {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background-color: #ff006b;
+	box-shadow: -8px -8px #ffef00;
+	color: white;
+}
+
+section#principal #texto-principal h1 {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+section#principal #texto-principal p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 21px;
+}
+
+section#principal #icones-principal {
+	margin-top: 2rem;
+	font-size: 21px;
+	font-weight: 700;
+	color: white;
+}
+
+section#principal #botao-principal a {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding: 0.9375rem 2.375rem;
+	background-color: #ffef00;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 10px 0 #ff9600;
+	        box-shadow: 0 10px 0 #ff9600;
+	font-size: 30px;
+	font-weight: 800;
+	color: #684410;
+}
+
+section#principal #botao-principal a:hover {
+	opacity: .8;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+
+	section#principal img#img-max {
+		width: 300px;
+	}
+
+	section#principal #botao-principal a {
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+
+}
